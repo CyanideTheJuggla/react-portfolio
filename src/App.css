@@ -1,0 +1,91 @@
+:root {
+    --primary-color: #3f1049;
+    --secondary-color: #33ff00;
+    --primary-blend: #737;
+    --secondary-blend: #484;
+    --primary-gradient: linear-gradient(#26022e 0%, #3f1049 100%);
+    --primary-side-gradient: linear-gradient(90deg, #3f1049 0%, #26022e 100%);
+    --secondary-gradient: linear-gradient(#5a4661 50%, #614169 100%);
+    --secondary-side-gradient: linear-gradient(90deg, #242 50%, #121 100%);
+}
+.bg-Primary-Gradient {
+    background-image: var(--primary-gradient);
+}
+.bg-Primary-Side-Gradient {
+    background-image: var(--primary-side-gradient);
+}
+.bg-Secondary-Gradient {
+    background-image: var(--secondary-gradient);
+}
+.bg-Secondary-Side-Gradient {
+    background-image: var(--secondary-side-gradient);
+}
+.bg-Primary {
+    background-color: var(--primary-color) !important;
+}
+.bg-Secondary {
+    background-color: var(--secondary-color) !important;
+}
+.bg-Primary-Blend {
+    background-color: var(--primary-blend) !important;
+}
+.bg-Secondary-Blend {
+    background-color: var(--secondary-blend) !important;
+}
+.border-Primary {
+    border-color: var(--primary-color) !important;
+}
+.border-Secondary {
+    border-color: var(--secondary-color) !important;
+}
+.border-Primary-Blend {
+    border-color: var(--primary-blend) !important;
+}
+.border-Secondary-Blend {
+    border-color: var(--secondary-blend) !important;
+}
+
+.bg-heading {
+    border: 3px solid #242;
+    background-color: #484 !important;
+}
+
+li {
+    margin: 0 5px 0 5px;
+}
+
+.page-container {
+    min-height: 100vh;
+}
+
+.card-fixed-height {
+    height: 550px !important;
+}
+
+.nav-link.active {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.keep-above {
+    z-index: 1000;
+}
+
+.vh-90 {
+    height: 90vh;
+}
+.vh-75 {
+    height: 75vh;
+}
+
+li {
+    list-style: none;
+}
+
+.squared {
+    border-radius: 0 !important;
+}

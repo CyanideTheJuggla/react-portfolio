@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Spottr",
+        "description": "Social Network for Exercise Enthusiasts",
+        "image": "https://github.com/Rush0218/spottr/raw/main/assets/img/homepage.PNG",
+        "deployment": "https://spottr-projecttwo.herokuapp.com/",
+        "repo": "https://github.com/Rush0218/spottr"
+    },
+    {
+        "name": "Hangman's Revenge",
+        "description": "A word game for the quick witted and thick skinned.",
+        "image": "https://cyanidethejuggla.github.io/portfolio/assets/img/hangmanScreenshot.PNG",
+        "deployment": "https://cyanidethejuggla.github.io/hangmans-revenge/",
+        "repo": "https://github.com/CyanideTheJuggla/hangmans-revenge"
+    },
+    {
+        "name": "Budget Tracker",
+        "description": "PWA for budget tracking on- and off-line",
+        "image": "https://github.com/CyanideTheJuggla/budget-tracker/raw/main/budget-tracker.PNG",
+        "deployment": "https://budget-tracker-module19.herokuapp.com/",
+        "repo": "https://github.com/CyanideTheJuggla/budget-tracker"
+    },
+    {
+        "name": "Tech Blog",
+        "description": "Functional tech blog type app",
+        "image": "https://github.com/CyanideTheJuggla/tech-blog/raw/main/img/Capture.PNG",
+        "deployment": "https://tech-blog-kappa.herokuapp.com/",
+        "repo": "https://github.com/CyanideTheJuggla/tech-blog"
+    },
+    {
+        "name": "Example project",
+        "description": "Description of Example Project",
+        "image": "https://via.placeholder.com/414x233",
+        "deployment": "https://github.com/CyanideTheJuggla/",
+        "repo": "https://github.com/CyanideTheJuggla/"
+    },
+    {
+        "name": "Example project",
+        "description": "Description of Example Project",
+        "image": "https://via.placeholder.com/414x233",
+        "deployment": "https://github.com/CyanideTheJuggla/",
+        "repo": "https://github.com/CyanideTheJuggla/"
+    }
+]
