@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
     return (
-        <div className="col-sm-12 h-100 pt-2">
+        <div className="pt-2">
             <h2 className="text-white mt-2 mb-2 py-2 bg-heading text-center rounded-pill">About</h2>
             <div className="card">
               <div className="card-body">

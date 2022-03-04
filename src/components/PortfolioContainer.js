@@ -13,7 +13,9 @@ export default function PortfolioContainer() {
     const renderPage = () => {
         console.log('currentPage', currentPage.toLowerCase())
         if (currentPage.toLowerCase().includes('home')) {
-            return <Home />;
+            return (
+                <Home />
+            );
         }
         if (currentPage.toLowerCase().includes('portfolio')) {
             return <Portfolio />;
@@ -31,10 +33,8 @@ export default function PortfolioContainer() {
     return (
         <div className="bg-Primary-Gradient">
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-            <div className="container bg-Secondary-Gradient page-container">
-                <div className="row h-100">
-                    {renderPage()}
-                </div>
+            <div className="container bg-Secondary-Gradient page-container px-4">
+                {renderPage()}
             </div>
             <Footer />
         </div>

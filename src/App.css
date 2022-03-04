@@ -1,13 +1,19 @@
 :root {
     --primary-color: #3f1049;
     --secondary-color: #33ff00;
-    --primary-blend: #737;
+    --primary-blend: #747;
     --secondary-blend: #484;
     --primary-gradient: linear-gradient(#26022e 0%, #3f1049 100%);
     --primary-side-gradient: linear-gradient(90deg, #3f1049 0%, #26022e 100%);
     --secondary-gradient: linear-gradient(#5a4661 50%, #614169 100%);
     --secondary-side-gradient: linear-gradient(90deg, #242 50%, #121 100%);
 }
+
+.bg-card,
+.card {
+    background-color: #7a7 !important;
+}
+
 .bg-Primary-Gradient {
     background-image: var(--primary-gradient);
 }
@@ -88,4 +94,11 @@ li {
 
 .squared {
     border-radius: 0 !important;
+}
+
+form {
+    color: white;
+    background-color: #5c5c5c;
+    border-radius: 8px;
+    padding: 15px;
 }

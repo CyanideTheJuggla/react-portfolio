@@ -2,7 +2,7 @@ import React from "react";
 
 function Project({project}) {
     return (
-        <div className="card card-fixed-height bg-Secondary-Blend text-white">
+        <div className="card card-fixed-height bg-Primary-Blend text-white">
             <div className="card-header text-center ">
                 <h5>{project.name}</h5>
             </div>
