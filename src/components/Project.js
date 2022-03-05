@@ -11,10 +11,10 @@ function Project({project}) {
                 <p className="card-text">{project.description}</p>
             </div>
             <div className="card-footer d-flex flex-row justify-content-between">
-                <a href={project.repo} className="text-reset text-white">
+                <a href={project.repo} className="text-reset text-white" target="_blank" rel="noreferrer">
                     Repo
                 </a>
-                <a href={project.deployment} className="text-reset text-white">
+                <a href={project.deployment} className="text-reset text-white" target="_blank" rel="noreferrer">
                     Deployment
                 </a>
             </div>

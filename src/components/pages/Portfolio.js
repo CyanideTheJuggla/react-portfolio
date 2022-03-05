@@ -3,8 +3,6 @@ import Project from "../Project";
 import projects from "../../data/projects.json"
 
 function Portfolio() {
-    
-
     return (
         <div className="card mt-3 mb-5">
             <div className="card-body">

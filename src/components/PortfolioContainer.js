@@ -11,7 +11,7 @@ export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = React.useState('Home');
 
     const renderPage = () => {
-        console.log('currentPage', currentPage.toLowerCase())
+        //console.log('currentPage', currentPage.toLowerCase())
         if (currentPage.toLowerCase().includes('home')) {
             return <Home />;
         }
@@ -29,14 +29,13 @@ export default function PortfolioContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div className="bg-Primary-Gradient">
+        <div className="bg-Primary-Gradient z-0">
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-            <div className="container bg-Secondary-Gradient page-container px-4 py-1">
+            <img className="bg-Transparent-Image" alt="Background vector created by coolvector - www.freepik.com" />
+            <div className="container bg-Secondary-Gradient page-container px-4 py-1 z-1">
                 {renderPage()}
             </div>
             <Footer />
         </div>
     );
 }
-
-
