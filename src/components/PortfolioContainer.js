@@ -31,7 +31,7 @@ export default function PortfolioContainer() {
     return (
         <div className="bg-Primary-Gradient z-0">
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-            <img className="bg-Transparent-Image" alt="Background vector created by coolvector - www.freepik.com" />
+            <span className="bg-Transparent-Image" alt="Background vector created by coolvector - www.freepik.com" ></span>
             <div className="container bg-Secondary-Gradient page-container px-4 py-1 z-1">
                 {renderPage()}
             </div>
